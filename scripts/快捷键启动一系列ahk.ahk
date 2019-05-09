@@ -16,7 +16,7 @@ Run, !set-prog-pos&size.ahk                 , , ,runID
 Array.Insert(runID)
 Run, !AutoEnglishKeyboard-ever1mins.ahk     , , ,runID
 Array.Insert(runID)
-Run, !网络md拷贝到typora之后的处理.ahk      , , ,runID
+Run, !md2typora.ahk                         , , ,runID
 Array.Insert(runID)
 return
 }

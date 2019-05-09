@@ -22,7 +22,7 @@ DetectHiddenText, On
     Send ^v     ;黏贴
     
     Send ^h     ;打开 Notepad++ 替换
-    Sleep,10    ;必须有delay, 不然会乱套
+    Sleep,100    ;必须有delay, 不然会乱套
     Send !g     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正则表达式模式]
     writeIn("src","^[0-9]{1,3}[\n\r]{1,2}")
     writeIn("replace","")
@@ -31,7 +31,7 @@ DetectHiddenText, On
 
     
     Send ^h     ;打开 Notepad++ 替换
-    Sleep,10    ;必须有delay, 不然会乱套
+    Sleep,100    ;必须有delay, 不然会乱套
     Send !n     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正常模式]
     writeIn("src","D:\hexo\source\images\")
     writeIn("replace","../images/")
@@ -48,16 +48,16 @@ DetectHiddenText, On
 replace()
 {
     Send !f     ;使用 Notepad++ 替换的 自带快捷键, 输入 被替换的字符串
-    Sleep,10    ;必须有delay, 不然会乱套
+    Sleep,100    ;必须有delay, 不然会乱套
     readOut("src")
     Send ^v
     
     Send !l     ;使用 Notepad++ 替换的 自带快捷键, 输入 替换后的字符串
-    Sleep,10    ;必须有delay, 不然会乱套
+    Sleep,100    ;必须有delay, 不然会乱套
     readOut("replace")
     Send ^v
     
-    Sleep,10    ;必须有delay, 不然会乱套
+    Sleep,100    ;必须有delay, 不然会乱套
     Send !a     ;使用 Notepad++ 替换的 自带快捷键, 全部替换
 }
 
