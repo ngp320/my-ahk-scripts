@@ -35,7 +35,7 @@ return
 
 ;打开AutoHotkey中文教程
 !y::
-RunOrActivateProgram("E:\00 win10装机\03装机必备软件\4AHK\AutoHotkeyHelp_CN\AutoHotkey.chm")
+RunOrActivateProgram("D:\my-ahk-scripts\collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
 return
 
 

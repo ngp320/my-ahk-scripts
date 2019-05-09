@@ -1,6 +1,0 @@
-对于中文论坛，选择 ahk8.com、官方中文子论坛[1]或两者并存更好？
-
-我在《amnesiac 的中文论坛情结》[2]中表明了我的做法并详细阐述了原因，供大家参考或进一步讨论。
-
-[1]：http://ahkscript.org/boards/viewforum.php?f=26
-[2]：http://zhuanlan.zhihu.com/autohotkey/19789938
