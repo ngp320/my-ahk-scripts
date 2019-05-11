@@ -36,7 +36,7 @@ writeIn(keyName)
     }
     textContent := clipboard
     
-    IniWrite, %textContent%, clipboard12345Database.ini, Database, %keyName%
+    IniWrite, %textContent%, Z-Database.ini, Z-Database, %keyName%
     
     tooltip, %keyName%= %textContent%    ;在鼠标右侧显示clipboard内容
     sleep,800            ;显示800ms

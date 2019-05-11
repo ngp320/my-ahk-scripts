@@ -1,12 +1,12 @@
 ﻿#NoTrayIcon  ;不显示托盘图标
 ; writeIn(keyName,inputStr)
 ; {
-    ; IniWrite, %inputStr%, RememberEditMe.ini, Database, %keyName%
+    ; IniWrite, %inputStr%, RememberEditMe.ini, Z-Database, %keyName%
     ; return
 ; }
 ; readOut(keyName)
 ; {
-    ; IniRead, textContent, RememberEditMe.ini, Database, %keyName%
+    ; IniRead, textContent, RememberEditMe.ini, Z-Database, %keyName%
     ; clipboard = %textContent%   
     ; ; Send, ^v
     ; return
@@ -25,7 +25,7 @@ writeIn(keyName)
     }
     textContent := clipboard
     
-    IniWrite, %textContent%, clipboard12345Database.ini, Database, %keyName%
+    IniWrite, %textContent%, Z-Database.ini, Z-Database, %keyName%
     
     tooltip, %keyName%= %textContent%    ;在鼠标右侧显示clipboard内容
     sleep,800            ;显示800ms
@@ -36,7 +36,7 @@ writeIn(keyName)
 
 readOut(keyName)
 {
-    IniRead, textContent, clipboard12345Database.ini, Database, %keyName%
+    IniRead, textContent, Z-Database.ini, Z-Database, %keyName%
     ; msgbox, %textContent% 
     clip_temp := clipboard      ;暂存clipboard
     clipboard = %textContent%   ;只有用函数的时候用:=????

@@ -14,7 +14,7 @@ Run, !切换窗口置顶win+F1.ahk                , , ,runID
 Array.Insert(runID)
 Run, !set-prog-pos&size.ahk                 , , ,runID
 Array.Insert(runID)
-Run, !AutoEnglishKeyboard-ever1mins.ahk     , , ,runID
+Run, !AutoEnglishKeyboard-ever2mins.ahk     , , ,runID
 Array.Insert(runID)
 Run, !md2typora.ahk                         , , ,runID
 Array.Insert(runID)

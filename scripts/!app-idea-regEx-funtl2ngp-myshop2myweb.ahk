@@ -65,12 +65,12 @@ replace()
 
 writeIn(keyName,inputStr)
 {
-    IniWrite, %inputStr%, Database.ini, Database, %keyName%
+    IniWrite, %inputStr%, Z-Database.ini, Z-Database, %keyName%
     return
 }
 readOut(keyName)
 {
-    IniRead, textContent, Database.ini, Database, %keyName%
+    IniRead, textContent, Z-Database.ini, Z-Database, %keyName%
     ; msgbox, %keyName% 
     ; msgbox, %textContent% 
     clipboard = %textContent%    
