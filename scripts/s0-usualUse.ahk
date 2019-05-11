@@ -48,5 +48,6 @@ cd D:\IDEA-demo\myweb\myweb-service-reg
 mvn clean install
 )
 
+::pp::2019-05-11-liveTemplate-
 
 ;###############################以下内容均已注释【注释】#############################################

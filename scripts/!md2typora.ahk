@@ -32,7 +32,7 @@ DetectHiddenText, On
     
     Send ^h     ;打开 Notepad++ 替换
     Sleep,100    ;必须有delay, 不然会乱套
-    Send !g     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正常模式]
+    Send !g     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正则表达式模式]
     writeIn("src","\(http.*\)")
     writeIn("replace","")
     replace()

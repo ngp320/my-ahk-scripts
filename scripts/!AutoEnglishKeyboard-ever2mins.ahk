@@ -3,7 +3,7 @@ loop ;循环开始
 {
     SetCapsLockState,off
     switchime(0)    ;强制英文小写
-    loop, 1    ;等待1m
+    loop, 2    ;等待2m
     {
         loop, 60    ;等待60s
         {
