@@ -28,6 +28,25 @@
 Run, "C:\Users\NGP\Desktop\快捷方式\Everything.lnk"
 return  
 
+::cccmmmccc::
+(
+cd D:\IDEA-demo\myweb\myweb-commons
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-commons-domain
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-commons-mapper
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-commons-service
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-database
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-dependencies
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-external-skywalking
+mvn clean install
+cd D:\IDEA-demo\myweb\myweb-service-reg
+mvn clean install
+)
 
 
 ;###############################以下内容均已注释【注释】#############################################

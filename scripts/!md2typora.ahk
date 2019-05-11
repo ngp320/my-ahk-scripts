@@ -24,7 +24,7 @@ DetectHiddenText, On
     Send ^h     ;打开 Notepad++ 替换
     Sleep,100    ;必须有delay, 不然会乱套
     Send !g     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正则表达式模式]
-    writeIn("src","^[0-9]{1,3}[\n\r]{1,2}")
+    writeIn("src","^[ ]{0,5}[0-9]{1,3}[\n\r]{1,2}")
     writeIn("replace","")
     replace()
     ;ahk函数变量不可以传递两次, 或者只是我不熟练(没看到对应的文档)  可以用python+ahk呀...哇,想想就666
@@ -32,9 +32,9 @@ DetectHiddenText, On
     
     Send ^h     ;打开 Notepad++ 替换
     Sleep,100    ;必须有delay, 不然会乱套
-    Send !n     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正常模式]
-    writeIn("src","D:\hexo\source\images\")
-    writeIn("replace","../images/")
+    Send !g     ;使用 Notepad++ 替换的 自带快捷键, 切换到 [正常模式]
+    writeIn("src","\(http.*\)")
+    writeIn("replace","")
     replace()
         
     ready()

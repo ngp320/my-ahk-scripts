@@ -12,6 +12,6 @@ Send %CurrentDateTime%
 return
 
 :?:ppic::            ; 【？号表示在单词中也会替换，e.g. Vnnow → V2019.....】
-FormatTime, CurrentDateTime,, yyy-MM-dd-1-HHmmss  
+FormatTime, CurrentDateTime,, yyy-MM-dd-1-HHmmss.png
 Send %CurrentDateTime%
 return
