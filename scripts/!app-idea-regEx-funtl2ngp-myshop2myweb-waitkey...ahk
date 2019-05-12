@@ -24,13 +24,23 @@ DetectHiddenText, On
     Sleep,100    ;必须有delay, 不然会乱套
     replace()
 
+    
+    ;ahk函数变量不可以传递两次, 或者只是我不熟练(没看到对应的文档)  可以用python+ahk呀...哇,想想就666
+    return
+}
+
+^!2::  
+{
+    switchime(0)    ;强制英文小写 
+    
+
     Sleep,100    ;必须有delay, 不然会乱套
     writeIn("src","myshop")
     Sleep,100    ;必须有delay, 不然会乱套
     writeIn("replace","myweb")
     Sleep,100    ;必须有delay, 不然会乱套
     replace()
-    Sleep,100    ;必须有delay, 不然会乱套
+
     
     ;ahk函数变量不可以传递两次, 或者只是我不熟练(没看到对应的文档)  可以用python+ahk呀...哇,想想就666
     return
@@ -55,12 +65,6 @@ replace()
     Sleep,100    ;必须有delay, 不然会乱套
     Send ^v
     
-    Send !+{Enter}
-    Sleep,100    ;必须有delay, 不然会乱套
-    Send,{Enter}
-    Sleep,100    ;必须有delay, 不然会乱套
-    Send,{ESC}
-    Sleep,100    ;必须有delay, 不然会乱套
 }
 
 writeIn(keyName,inputStr)
