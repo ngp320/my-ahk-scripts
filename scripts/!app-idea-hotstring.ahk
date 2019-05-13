@@ -7,6 +7,8 @@
 (
 cd  D:\IDEA-demo\myweb\myweb-commons
 mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-commons-consumer
+mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-commons-domain
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-commons-mapper
@@ -19,10 +21,15 @@ cd  D:\IDEA-demo\myweb\myweb-dependencies
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-external-skywalking
 mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-consumer-item
+mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-email
+mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-provider-item
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-reg
 mvn clean install  
+
 
 idea-ahk 自动输入 mvn clean install 打包完毕
 )
