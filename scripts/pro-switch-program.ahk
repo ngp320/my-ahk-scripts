@@ -35,7 +35,7 @@ return
 
 ;打开AutoHotkey中文教程
 !y::
-RunOrActivateProgram("D:\my-ahk-scripts\collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
+RunOrActivateProgram("D:\my-ahk-scripts\ahk-collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
 return
 
 

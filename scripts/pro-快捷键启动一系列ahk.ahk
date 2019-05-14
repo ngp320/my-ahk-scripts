@@ -6,13 +6,11 @@ Array := Object()
 #F12::
 {
 ;启动并保存进程ID
-Run, !pro-set-capsLock-off.ahk              , , ,runID  
+Run, !pro-set-capsLock-off.ahk              , , ,runID
 Array.Insert(runID)
-Run, !app9-potplayer-custom.ahk             , , ,runID ;因为pot...用到了CapsLock键,所以得在set..之后运行
+Run, !app-potplayer-pause&start.ahk         , , ,runID ;因为pot...用到了CapsLock键,所以得在pro-set-capsLock-off之后运行
 Array.Insert(runID)
 Run, !pro-切换窗口置顶win+F1.ahk            , , ,runID
-Array.Insert(runID)
-Run, !app-potplayer-set-prog-pos&size.ahk   , , ,runID
 Array.Insert(runID)
 Run, !app-sougou-autoswitch-englishkeyboard-ever2mins.ahk   , , ,runID
 Array.Insert(runID)

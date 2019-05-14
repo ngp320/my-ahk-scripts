@@ -25,11 +25,12 @@ cd  D:\IDEA-demo\myweb\myweb-service-consumer-item
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-email
 mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-gateway
+mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-provider-item
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-reg
 mvn clean install  
-
 
 idea-ahk 自动输入 mvn clean install 打包完毕
 )
