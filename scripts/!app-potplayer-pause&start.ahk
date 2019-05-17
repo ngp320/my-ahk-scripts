@@ -9,7 +9,7 @@ SetTitleMatchMode, 2
 
 ;~ 表示不影响原有按键 1
 ;$ 表示，在 Send 包含自身时，用 $ 可以防止重复自调用死循环
- ~CapsLock::  
+CapsLock::  
 {
     WinGet, acive_id, ID, A    ; 获得当前窗口 ID   
     WinActivate ; 激活 PotPlayer64
@@ -17,7 +17,7 @@ SetTitleMatchMode, 2
     WinActivate,ahk_id %acive_id%    ; 返回原来的窗口
      return
 }
-~!CapsLock::  
+!CapsLock::  
 {
     ; WinGet, acive_id, ID, A    ; 获得当前窗口 ID   
     WinActivate ; 激活 PotPlayer64

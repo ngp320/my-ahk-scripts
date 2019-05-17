@@ -6,11 +6,15 @@ import os
 import sys
 
 def outputTxt(path,newline):
-    file=open(path,"a+", encoding="utf-8")
+    file=open(path,"a+")  #2.7 版本好像不能用这个 encoding="utf-8"
     #转换格式 \转义符号，对"起作用
     file.writelines(newline+"\n") 
     file.close()
     
+#python 2.7 才需要这个函数
+def UTF8ToGBK(str):
+    return str.decode("utf-8").encode("gbk")
+
 def get_allFileName_byPrefix():
     currentWorkingDirectory = os.getcwd() + "\\"
     print(currentWorkingDirectory)
@@ -22,12 +26,16 @@ def get_allFileName_byPrefix():
     for fileName in fileNames:
         if(fileName.startswith(prefix)):
             outputTxt(currentWorkingDirectory + resultFileName,str1 + os.getcwd() + "\\"  +fileName)
-            print("扫描到的文件名: " + fileName)
+            print(UTF8ToGBK("扫描到的文件名: ") + fileName)
             outputTxt(currentWorkingDirectory + resultFileName,str2)
-    print("\n已生成格式:\n"+ str1 +"reseult-file-name\n"+ str2)
-    print("输出文件为: "+os.getcwd() + "\\" +resultFileName)
+    print(UTF8ToGBK("\n已生成格式:\n")+ str1 +"reseult-file-name\n"+ str2)
+    print(UTF8ToGBK("输出文件为: ")+os.getcwd() + "\\" +resultFileName)
 
 def main():
+    #兼容中文字符打印
+    reload(sys)
+    sys.setdefaultencoding("utf-8")
+    
     get_allFileName_byPrefix()
 
 if __name__ == "__main__":
