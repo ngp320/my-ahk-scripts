@@ -13,7 +13,8 @@ def outputTxt(path,newline):
     
 #python 2.7 才需要这个函数
 def UTF8ToGBK(str):
-    return str.decode("utf-8").encode("gbk")
+    # return str.decode("utf-8").encode("gbk")
+    return str
 
 def get_allFileName_byPrefix():
     currentWorkingDirectory = os.getcwd() + "\\"
@@ -31,12 +32,13 @@ def get_allFileName_byPrefix():
     print(UTF8ToGBK("\n已生成格式:\n")+ str1 +"reseult-file-name\n"+ str2)
     print(UTF8ToGBK("输出文件为: ")+os.getcwd() + "\\" +resultFileName)
 
-def main():
+# def main():
     #兼容中文字符打印
-    reload(sys)
-    sys.setdefaultencoding("utf-8")
-    
-    get_allFileName_byPrefix()
+    # reload(sys)
+    # sys.setdefaultencoding("utf-8")
+    # get_allFileName_byPrefix()
 
 if __name__ == "__main__":
-    main()
+    get_allFileName_byPrefix()
+    # main()
+    # 这样改一下又适合py 3.X了

@@ -21,19 +21,27 @@ cd  D:\IDEA-demo\myweb\myweb-dependencies
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-external-skywalking
 mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-consumer-iot-temp
+mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-consumer-iot-temp-warn
+mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-consumer-item
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-email
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-gateway
 mvn clean install  
-cd  D:\IDEA-demo\myweb\myweb-service-json2mysql
-mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-login
+mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-provider-iot-temp
+mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-provider-iot-temp-warn
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-provider-item
 mvn clean install  
 cd  D:\IDEA-demo\myweb\myweb-service-reg
+mvn clean install  
+cd  D:\IDEA-demo\myweb\myweb-service-save-iotTemp
 mvn clean install  
 
 
@@ -43,4 +51,5 @@ idea-ahk 自动输入 mvn clean install 打包完毕
 ::mmvn::
 (
 mvn clean install
+
 )
