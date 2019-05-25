@@ -11,8 +11,7 @@ def add_mark():
             print(old_name + "  --->  " +mark+old_name)
             os.rename(old_name, mark+old_name)
 
-def remove_mark():
-    delete_prefix = input("请黏贴你想删除的前缀:\n")
+def remove_mark(delete_prefix):
     old_names= os.listdir()
     for old_name in old_names:
         if (old_name.startswith(delete_prefix)):
@@ -33,7 +32,9 @@ def main():
         if option == 1:
             add_mark()
         elif option == 2:
-            remove_mark()
+            delete_prefix = str(input("请黏贴你想删除的前缀:\n"))
+            remove_mark(delete_prefix)
+            remove_mark(" ")
         else:
             exit()
 

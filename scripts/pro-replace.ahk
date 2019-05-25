@@ -36,6 +36,17 @@ tooltip,
 }
 return
 
+;空格 → 下划线
+~^+Space::                    ;~表示不影响原有按键
+{
+Send ^c                ;因为剪切板中是字符串的形式, 所以要用两行正则替换
+clipboard := RegExReplace(clipboard, " ","_")    ;A)是一个模式, 表示强制匹配开头, 匹配开头, 在其前面添加[;]号
+StringLeft,clipboard_left,clipboard,500        ;取剪贴板前500个字符, 避免[Ctrl]+[A]时显示太多, 影响视觉
+tooltip,%clipboard_left%    ;在鼠标右侧显示clipboard内容
+sleep,800            ;显示800ms
+tooltip,
+}
+return
 
 ;功能:   文本中的 [Tab]键 替换为 空格。(稍微变形，需要再手动维修，对强迫症患者来说，对齐真的很重要)
 ;操作:   先选中文本，再按 [Ctrl] + [Alt] + [Tab] , 再黏贴(按下 [Ctrl] +V)，会有稍微变形 原因如下 ↓ 

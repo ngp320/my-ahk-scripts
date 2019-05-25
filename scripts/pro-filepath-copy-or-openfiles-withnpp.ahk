@@ -41,7 +41,7 @@ return
 ;[Win] + E
 #E::
 path :=% Explorer_GetSelection(hwnd) ;调用了 函数
-Software = C:\Program Files (x86)\Notepad++\notepad++.exe
+Software = "C:\Program Files (x86)\Notepad++\notepad++.exe"
 Run, %Software% "%path%"
 return
 

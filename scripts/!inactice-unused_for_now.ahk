@@ -16,6 +16,12 @@
 ;放弃【段首缩进】。使用【换行】实现 【换段】，有效减轻【文字过于密集，以至于阅读体验不好】的问题。
 
 
+;打开or切换Everything	
+;得配合Win10程序计划任务，不显示UAC(用户账户控制)，并取消Everything的后台运行
+; 配合win10程序计划任务，开启时会严重影响windows稳定性，故废弃
+; !^f::
+; Run, "C:\Users\NGP\Desktop\快捷方式\Everything.lnk"
+; return  
 
 
 

@@ -12,6 +12,10 @@ RunOrActivateProgram(Program, WorkingDir="", WindowSize=""){
     WinActivate, ahk_pid %PID% 
     } 
 }
+;打开AutoHotkey中文教程
+!y::
+RunOrActivateProgram("D:\my-ahk-scripts\ahk-collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
+return
 
 ;打开or切换谷歌浏览器  Alt+Z
 !z::
@@ -30,13 +34,10 @@ return
 
 ;打开or切换eclipse/idea  Alt+B ;与zxc区分开，防止误触
 !v::
-RunOrActivateProgram("C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.8\bin\idea64.exe")
+RunOrActivateProgram("C:\Program Files\JetBrains\PyCharm 2018.3.3\bin\pycharm64.exe")
+; RunOrActivateProgram("C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.8\bin\idea64.exe")
 return
 
-;打开AutoHotkey中文教程
-!y::
-RunOrActivateProgram("D:\my-ahk-scripts\ahk-collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
-return
 
 
 ;打开or切换Typora
