@@ -75,7 +75,7 @@ DetectHiddenWindows, On
 ;
 Files := [	; Additional Startup Files and Folders Can Be Added Between the ( Continuations  ) Below
 (Join, 
-"D:\AHK Script Manager\scripts\"
+"F:\0Software\my-ahk-scripts\scripts\!app-chrome左对齐 刚好pdf宽度, 印象笔记 填右边剩下的.ahk"
 )]
 ;}
 
