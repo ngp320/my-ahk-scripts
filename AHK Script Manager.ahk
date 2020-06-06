@@ -164,7 +164,7 @@ Return
 tsk_edit:
 ;Run, edit %A_ScriptDir%\scripts\%A_thismenuitem%.ahk
 ;改用notepad++编辑脚本
-npp = C:\Program Files (x86)\Notepad++\notepad++.exe
+npp = C:\Program Files\Notepad++\notepad++.exe
 Run, %npp% "%A_ScriptDir%\scripts\%A_thismenuitem%.ahk"
 Return
 
