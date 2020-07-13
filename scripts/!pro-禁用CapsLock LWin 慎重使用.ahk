@@ -4,3 +4,6 @@
 ;Set Lock keys permanently
 SetCapsLockState, AlwaysOff ;禁用CapsLock   
 Return
+
+; 屏蔽按下windows键弹出菜单功能
+LWin::return
