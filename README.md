@@ -37,7 +37,7 @@ include, resources都是AHK Scripts Manager.ahk要使用的的文件
 ;以下cmd命令可以解决部分中文乱码问题    
 ;chcp 936    
   
-很久没push的文档,可以:    
+很久没push的代码, 无法push, 解决方案之一:
 1 文件夹整个打成压缩包    
 2 在另一个路径(直接在原地新建一个文件夹也行)clone远程仓库  (例如 AHK/my-ahk-scripts)     
 3 用压缩包里的文件覆盖.idea .git 以外的文件     
