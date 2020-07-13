@@ -17,11 +17,6 @@ RunOrActivateProgram(Program, WorkingDir="", WindowSize=""){
 ;RunOrActivateProgram("D:\my-ahk-scripts\ahk-collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
 ;return
 
-;打开or切换谷歌浏览器  Alt+z
-!z::
-RunOrActivateProgram("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
-return 
-
 ;打开or切换 everything  Alt+E
 !e::
 Run, C:\Program Files\Everything\Everything.exe 
@@ -29,15 +24,30 @@ return
 
 ; 有时候 RunOrActivateProgram 会无效 也不知道为什么.. 应该是没弄懂这个函数, 或者AHK本身不稳定(见过很多次了)
 
-;打开or切换 语雀
+
+
+;####################################最常用START##########################################
+
+;打开or切换谷歌浏览器  Alt+z
 !x::
-RunOrActivateProgram("C:\Users\ngp\AppData\Local\Programs\yuque-desktop\语雀.exe")
+RunOrActivateProgram("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
+return 
+
+;打开or切换 Eclipse
+;!C::
+;RunOrActivateProgram("D:\00software\eclipse\eclipse.exe")
+;return
+
+;打开or切换 idea
+!z::
+RunOrActivateProgram("C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin\idea64.exe")
 return
 
-;打开 cmder
+;打开 potplayer
 !c::
-RunOrActivateProgram("D:\00software\cmder\Cmder.exe")
+RunOrActivateProgram("C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe")
 return 
+;####################################最常用END##########################################
 
 ;打开 印象笔记
 !v::

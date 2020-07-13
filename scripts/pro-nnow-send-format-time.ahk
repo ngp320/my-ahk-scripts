@@ -7,7 +7,7 @@
 ;原因:   Hexo经常要输入格式化的日期
 ;|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 :?:nnow::            ; 【？号表示在单词中也会替换，e.g. Vnnow → V2019.....】
-FormatTime, CurrentDateTime,, yyy-MM-dd HH:mm:ss  
+FormatTime, CurrentDateTime,, yyy/MM/dd HH:mm
 Send %CurrentDateTime%
 return
 
