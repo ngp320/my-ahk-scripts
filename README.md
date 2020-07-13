@@ -38,11 +38,12 @@ include, resources都是AHK Scripts Manager.ahk要使用的的文件
 ;chcp 936    
   
 很久没push的代码, 无法push, 解决方案之一 :
+
 1 文件夹整个打成压缩包
-2 在另一个路径(直接在原地新建一个文件夹也行)clone远程仓库  (例如 AHK/my-ahk-scripts)     
-3 用压缩包里的文件覆盖.idea .git 以外的文件     
-4 push即可   
-5 记得把 AHK Script Manager.ahk 的快捷方式 放到 [开机启动]↓L28 和 [桌面] 里面去  
+2 在另一个路径(直接在原地新建一个文件夹也行)clone远程仓库  (例如 AHK/my-ahk-scripts)
+3 用压缩包里的文件覆盖.idea .git 以外的文件
+4 push即可
+5 记得把 AHK Script Manager.ahk 的快捷方式 放到 [开机启动]↓L28 和 [桌面] 里面去
 
 
 
