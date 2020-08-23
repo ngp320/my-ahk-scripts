@@ -40,7 +40,7 @@ return
 
 ;打开or切换 idea
 !z::
-RunOrActivateProgram("C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\bin\idea64.exe")
+RunOrActivateProgram("D:\00software\IntelliJ IDEA 2019.3.3\bin\idea64.exe")
 return
 
 ;打开 potplayer

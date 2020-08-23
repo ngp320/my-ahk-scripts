@@ -75,7 +75,7 @@ DetectHiddenWindows, On
 ;
 Files := [	; Additional Startup Files and Folders Can Be Added Between the ( Continuations  ) Below
 (Join, 
-"D:\00software\AHK\my-ahk-scripts\scripts\app-send-potplayer-pause&continue.ahk"
+"D:\00software\AHK\my-ahk-scripts\scripts\!app-中键变Ctrl+左键.ahk"
 )]
 ;}
 
