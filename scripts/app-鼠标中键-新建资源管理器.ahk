@@ -26,7 +26,7 @@ Explorer_GetSelection(hwnd="")   ;函数
 } 
 
 
-#IfWinExist ahk_exe explorer.exe
+#IfWinActive ahk_exe explorer.exe
 ~MButton::
 {
 	Send {LButton}
@@ -34,4 +34,4 @@ Explorer_GetSelection(hwnd="")   ;函数
 	Software = "C:\Windows\explorer.exe"
 	Run, %Software% "%path%"
 }
-#IfWinExist
+#IfWinActive
