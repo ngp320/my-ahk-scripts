@@ -1,0 +1,7 @@
+#NoTrayIcon  ;≤ªœ‘ æÕ–≈ÃÕº±Í
+
+MButton::
+{
+	Send {Ctrl down}{LButton}{Ctrl up}
+	Return
+}
