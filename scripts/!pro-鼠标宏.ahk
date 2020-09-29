@@ -1,6 +1,7 @@
 #NoTrayIcon  ;不显示托盘图标
 
-;复制
+;复制  左键框住待复制内容, 不要松开, 按下右键即可复制. 
+;		配合 pro-显示 复制和剪切的内容.ahk 效果明显
 ~LButton & RButton::
 {
 send ^c
@@ -16,7 +17,7 @@ Return
 }
 
 
-;粘贴 并回车
+;粘贴 并鼠标下移30像素 并回车  左键+中键
 ~LButton & MButton::
 {
 Sleep, 300	;等待0.3s 强制机械等待
@@ -32,7 +33,7 @@ Return
 }
 
 
-;仅粘贴
+;仅粘贴  右键+中键
 ~RButton & MButton::
 {
 Send ^v
