@@ -1,8 +1,8 @@
 #### 安装使用介绍
 
-- 1 下载最新的 AutoHotkey (%my-ahk-scripts%\\ahk-collection\\AutoHotkey_1.1.30.01_setup.exe)    
+- 1 下载AutoHotkey软件 (%my-ahk-scripts%\\ahk-collection\\AutoHotkey_1.1.30.01_setup.exe)    
 - 2 运行 AHK Script Manager.ahk  
-- 3 推荐, 放入开机自启动:  
+- 3 (推荐)放入开机自启动:  
   -  ①右键 AHK Script Manager.ahk → 发送到桌面快捷方式  
   -  ②复制桌面快捷方式  
   -  ③粘贴到 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\   即可    
@@ -21,7 +21,7 @@
 #### AHK管理软件使用
 
 - 文件名前缀有 "!" , 则需要手动启动
-- 文件名前缀无 "!" , 则启动AHK管理软件以后自动启动
+- 文件名前缀无 "!" , 则随AHK管理软件的自动而启动
 
 
 
