@@ -1,7 +1,7 @@
 #### 安装使用介绍
 
-- 1 下载最新的 AutoHotkey (百度 或者 google)    
-- 2 运行 AHK Script Manager.ahk (也可以 右键 → 发送到桌面快捷方式)  
+- 1 下载最新的 AutoHotkey (%my-ahk-scripts%\\ahk-collection\\AutoHotkey_1.1.30.01_setup.exe)    
+- 2 运行 AHK Script Manager.ahk  
 - 3 推荐, 放入开机自启动:  
   -  ①右键 AHK Script Manager.ahk → 发送到桌面快捷方式  
   -  ②复制桌面快捷方式  
@@ -9,12 +9,11 @@
 
 #### 代码内容介绍
 
-- ahk-collection 收藏的一些脚本 + 中文文档  
-- python-scripts 自己写的python轻量脚本
+- ahk-collection 收藏的一些脚本 + AHK安装软件 + 中文文档  
 - scripts     主要脚本
 - include, resources都是AHK Scripts Manager.ahk要使用的的文件
 
-- 若有bug，望不吝赐教。 一般重启软件即可 (右下角图片退出再 --> 双击AHK Scripts Manager.ahk)
+- 若有bug，望不吝赐教。 一般重启软件即可 (右下角右键退出再 --> 双击AHK Scripts Manager.ahk)
 
 
 
@@ -81,5 +80,7 @@
   > }
 
 想要做到什么功能, 可以先网络搜索.  没有就只能参考 本地手册 和 网络手册 以及网络上的ahk脚本.
+
+如果玩脱了可能会导致 鼠标 键盘不可用, 毕竟能够禁止鼠标键盘(建议写之前备份代码, 或者及使用Git提交到远程仓库.
 
 本地手册:  %my-ahk-scripts%\\ahk-collection\\AutoHotkeyHelp_CN\AutoHotkey.chm
