@@ -39,14 +39,14 @@ return
 ;return
 
 ;打开or切换 idea
-!z::
-RunOrActivateProgram("D:\00software\IntelliJ IDEA 2019.3.3\bin\idea64.exe")
-return
+;!z::
+;RunOrActivateProgram("D:\00software\IntelliJ IDEA 2019.3.3\bin\idea64.exe")
+;return
 
 ;打开 potplayer
 !c::
-RunOrActivateProgram("C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe")
-return 
+;RunOrActivateProgram("C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe")
+;return 
 ;####################################最常用END##########################################
 
 ;打开 印象笔记

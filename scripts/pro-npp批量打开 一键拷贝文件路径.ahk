@@ -31,6 +31,7 @@ Explorer_GetSelection(hwnd="")   ;函数
 ;[Win] + Z ;一键拷贝文件路径 ;
 #Z::
 clipboard := % Explorer_GetSelection(hwnd) ;调用了 函数
+clipboard := RegExReplace(clipboard, "\\","\\")    ;匹配 [\] 替换为 [\\]号     
 Tooltip,%clipboard%	;在鼠标右侧显示【拷贝的文件路径】
 Sleep,800
 Tooltip,
