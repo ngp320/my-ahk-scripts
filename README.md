@@ -1,3 +1,12 @@
+- [安装使用介绍](#------)
+- [代码内容介绍](#------)
+- [AHK管理软件使用](#ahk------)
+- [AHK语言介绍](#ahk----)
+- [后记:](#---)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 #### 安装使用介绍
 
 - 1 下载AutoHotkey软件 (%my-ahk-scripts%\\ahk-collection\\AutoHotkey_1.1.30.01_setup.exe)    
@@ -133,8 +142,15 @@
   return
   ```
 
-想要做到什么功能, 可以先网络搜索.  没有就只能参考 本地手册 和 网络手册 以及网络上的ahk脚本.
+#### 后记:
 
-如果玩脱了可能会导致 鼠标 键盘不可用(需物理强制重启!=.=), 毕竟能够禁止鼠标键盘(建议写之前备份代码, 或者及使用Git提交到远程仓库.
+- 想要做到什么功能, 可以先网络搜索.  没有就只能参考 本地手册 和 网络手册 以及网络上的ahk脚本.
 
-本地手册:  %my-ahk-scripts%\\ahk-collection\\AutoHotkeyHelp_CN\AutoHotkey.chm
+- 如果玩脱了可能会导致 鼠标 键盘不可用(需物理强制重启!=.=), 毕竟能够禁止鼠标键盘(建议写之前备份代码, 或者及使用Git提交到远程仓库.
+
+- 本地手册:  %my-ahk-scripts%\\ahk-collection\\AutoHotkeyHelp_CN\AutoHotkey.chm
+
+手动狗头:
+
+![手动狗头](https://raw.githubusercontent.com/ngp320/pic/master/ahk_ahk-manager-ahk-%E6%89%8B%E5%8A%A8%E7%8B%97%E5%A4%B4.png)
+
