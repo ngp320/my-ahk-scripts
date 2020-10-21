@@ -152,5 +152,5 @@
 
 手动狗头:
 
-![手动狗头](https://raw.githubusercontent.com/ngp320/pic/master/ahk_ahk-manager-ahk-%E6%89%8B%E5%8A%A8%E7%8B%97%E5%A4%B4.png)
+![手动狗头](https://raw.githubusercontent.com/ngp320/my-ahk-scripts/master/resources/ahk_ahk-manager-ahk-%E6%89%8B%E5%8A%A8%E7%8B%97%E5%A4%B4.png)
 
