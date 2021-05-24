@@ -4,7 +4,7 @@
 ;当一个线程没有执行完毕时，其他热键是不能中止它的运行的（可以暂停/继续），除非Reload重启。
 
 
-PgDn::
+!#s::
 Hotkey, %A_ThisHotkey%,, T2 ; 这里修改每个热键允许同时存在2个线程
 if (F2_ok)
 {
@@ -15,8 +15,30 @@ return
 F2_ok:=1
 loop
 {
-Send,{PgDn}
-Sleep,100
+Send,{e down}
+Sleep,3000
+Send,{e up}
+
+Sleep,500
+
+Send,{Lbutton down}
+Sleep,4000
+Send,{Lbutton up}
+
+Send,{Lbutton}
+Sleep,1000
+Send,{Lbutton}
+Sleep,1000
+Send,{Lbutton}
+Sleep,1000
+Send,{Lbutton}
+Sleep,1000
+Send,{Lbutton}
+Sleep,1000
+Send,{Lbutton}
+Sleep,1000
+
+
 }
 exitapp
 return

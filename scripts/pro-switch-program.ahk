@@ -12,54 +12,66 @@ RunOrActivateProgram(Program, WorkingDir="", WindowSize=""){
     WinActivate, ahk_pid %PID% 
     } 
 }
+
+;####################################最常用START##########################################
+;打开or切换 vscode  Alt+E
+!e::
+RunOrActivateProgram("C:\\Users\\ngp\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe")
+return 
+;打开or切换 everything  Alt+S
+!s::
+Run, C:\Program Files\Everything\Everything.exe 
+return 
+; 有时候 RunOrActivateProgram 会无效 也不知道为什么.. 应该是没弄懂这个函数, 或者AHK本身不稳定(见过很多次了)
+
+;打开or切换谷歌浏览器  Alt+x
+!x::
+RunOrActivateProgram("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")
+return 
+
+
+;打开or切换 idea
+!d::
+RunOrActivateProgram("C:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.2.2\\bin\\idea64.exe")
+return
+
+
+;####################################最常用END##########################################
+;####################################未启用START########################################
+;打开 pycharm
+;!c::
+;RunOrActivateProgram("C:\\Program Files\\JetBrains\\PyCharm 2019.3.3\\bin\\pycharm64.exe")
+;return 
+
+
 ;打开AutoHotkey中文教程
 ;!y::
 ;RunOrActivateProgram("D:\my-ahk-scripts\ahk-collection\AutoHotkeyHelp_CN\AutoHotkey.chm")
 ;return
 
-;打开or切换 everything  Alt+E
-!e::
-Run, C:\Program Files\Everything\Everything.exe 
-return 
 
-; 有时候 RunOrActivateProgram 会无效 也不知道为什么.. 应该是没弄懂这个函数, 或者AHK本身不稳定(见过很多次了)
-
-
-
-;####################################最常用START##########################################
-
-;打开or切换谷歌浏览器  Alt+z
-!x::
-RunOrActivateProgram("C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
-return 
+;打开 印象笔记
+;!c::
+;RunOrActivateProgram("C:\\Program Files\\JetBrains\\PyCharm 2019.3.3\\bin\\pycharm64.exe")
+;return 
 
 ;打开or切换 Eclipse
-;!C::
+;!c::
 ;RunOrActivateProgram("D:\00software\eclipse\eclipse.exe")
 ;return
 
-;打开or切换 idea
-;!z::
-;RunOrActivateProgram("D:\00software\IntelliJ IDEA 2019.3.3\bin\idea64.exe")
-;return
 
 ;打开 potplayer
-!c::
+;!c::
 ;RunOrActivateProgram("C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe")
 ;return 
-;####################################最常用END##########################################
-
-;打开 印象笔记
-!v::
-RunOrActivateProgram("C:\Program Files (x86)\Yinxiang Biji\印象笔记\Evernote.exe")
-return 
-
 
 ;打开or切换eclipse/idea  Alt+B ;与zxc区分开，防止误触
 ;!v::
 ;RunOrActivateProgram("C:\Program Files\JetBrains\PyCharm 2018.3.3\bin\pycharm64.exe")
 ; RunOrActivateProgram("C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.8\bin\idea64.exe")
 ;return
+
 
 
 
@@ -83,3 +95,7 @@ return
 ;}
 ;DetectHiddenWindows, Off
 ;return
+;####################################未启用END##########################################
+
+
+

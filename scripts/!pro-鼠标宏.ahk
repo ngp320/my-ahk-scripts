@@ -17,24 +17,9 @@ Return
 }
 
 
-;粘贴 并鼠标下移30像素 并回车  左键+中键
-~LButton & MButton::
-{
-Sleep, 300	;等待0.3s 强制机械等待
-Send ^v
-MouseMove, 0, 30, 0, R  ;
-;;;;;;;;;;;;;;;;;;;;;;;;;MouseMove, 50, 0, 0, R  ;鼠标右移50像素
-Sleep, 300	
-Send {LButton}
-Sleep, 300	
-Send {Enter}
-Sleep, 300	
-Return
-}
-
 
 ;仅粘贴  右键+中键
-~RButton & MButton::
+~LButton & MButton::
 {
 Send ^v
 Return

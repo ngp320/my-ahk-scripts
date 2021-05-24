@@ -11,7 +11,7 @@ Return
 #IfWinExist ahk_exe PotPlayerMini64.exe
 ;~ 表示不影响原有按键
 ;$ 表示,在Send包含自身时，用$可以防止重复自调用死循环
-~CapsLock::  
+CapsLock::  
 {
 	PotPlayer_id := WinExist("ahk_exe PotPlayerMini64.exe")
 	WinGet, acive_id, ID, A    ;获得当前窗口ID 
