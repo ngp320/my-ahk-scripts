@@ -11,10 +11,10 @@ FormatTime, CurrentDateTime,, yyy-MM-dd_HH-mm_
 Send %CurrentDateTime%
 return
 
-::ppic::
-FormatTime, CurrentDateTime,, yyy-MM-dd-
-Send %CurrentDateTime%
-tooltip, 2019-xx-xx-文章名|图片集名-图片序号    ;在鼠标右侧显示clipboard内容
-sleep,2000            ;显示800ms
-tooltip,
-return
+;::ppic::
+;FormatTime, CurrentDateTime,, yyy-MM-dd-
+;Send %CurrentDateTime%
+;tooltip, 2019-xx-xx-文章名|图片集名-图片序号    ;在鼠标右侧显示clipboard内容
+;sleep,2000            ;显示800ms
+;tooltip,
+;return

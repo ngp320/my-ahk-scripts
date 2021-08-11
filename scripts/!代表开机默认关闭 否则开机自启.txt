@@ -1,0 +1,4 @@
+; ! →  [Alt]        ; ! 想象成 Alt   的 l  
+; # →  [win]        ; # 想           windows开始图案  
+; ^ →  [Ctrl]       ; ^ 想象成 Ctrl  的 倒C  
+; + →  [Shift]      ; + 想象成 Shift 的 f拉长  

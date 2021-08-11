@@ -73,9 +73,11 @@ DetectHiddenWindows, On
 ; INITIALIZATION - VARIABLES
 ;{-----------------------------------------------
 ;
+; 调试 位置 , 添加 到 下方
 Files := [	; Additional Startup Files and Folders Can Be Added Between the ( Continuations  ) Below
 (Join, 
-"D:\00software\AHK\my-ahk-scripts\scripts\!app-中键变Ctrl+左键.ahk"
+"D:\00software\AHK\my-ahk-scripts\scripts\!app-中键变Ctrl+左键.ahk",
+"D:\\00software\\AHK\\my-ahk-scripts\\scripts\\app-给chrome发送Space键.ahk"
 )]
 ;}
 

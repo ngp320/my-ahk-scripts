@@ -17,6 +17,7 @@ loop
 {
 Send,{PgDn}
 Sleep,100
+
 }
 exitapp
 return
