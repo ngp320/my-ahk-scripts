@@ -1,12 +1,3 @@
-- [安装使用介绍](#------)
-- [代码内容介绍](#------)
-- [功能介绍](#----)
-- [AHK管理软件使用](#ahk------)
-- [AHK语言介绍](#ahk----)
-- [后记:](#---)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 #### 安装使用介绍
 
